@@ -90,7 +90,17 @@ button:hover{
     }
 }
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 420px) {
+    section{
+        width: 350px;
+    }
+
+    form{
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
     section{
         width: 330px;
     }
@@ -100,12 +110,22 @@ button:hover{
     }
 }
 
-@media only screen and (max-width: 330px) {
+@media only screen and (max-width: 325px) {
     section{
-        width: 295px;
+        width: 290px;
     }
 
     form{
-        width: 295px;
+        width: 290px;
+    }
+}
+
+@media only screen and (max-width: 285px) {
+    section{
+        width: 250px;
+    }
+
+    form{
+        width: 250px;
     }
 }
